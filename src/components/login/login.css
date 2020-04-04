@@ -1,0 +1,14 @@
+.container_item{
+    background-color: rebeccapurple;
+    height: 100vh;
+}
+
+.picture{
+    background-color: blue;
+    height: 100vh;
+}
+
+.form_init{
+    background-color: red;
+    height: 100vh;
+}
