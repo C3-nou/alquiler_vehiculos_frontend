@@ -1,0 +1,17 @@
+:root{
+    --height_custom: 100vh;
+}
+
+.container_item{
+    height: var(--height_custom);
+    background-image: url('../../media/img/fondo.jpeg');
+    background-size: cover;
+}
+
+.form_init{
+    height: var(--height_custom);
+}
+
+.hoover_custom:hover{
+    cursor: pointer;
+}

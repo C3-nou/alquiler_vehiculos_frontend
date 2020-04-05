@@ -1,14 +1,17 @@
-.container_item{
-    background-color: rebeccapurple;
-    height: 100vh;
+:root{
+    --height_custom: 100vh;
 }
 
-.picture{
-    background-color: blue;
-    height: 100vh;
+.container_item{
+    height: var(--height_custom);
+    background-image: url('../../media/img/fondo.jpeg');
+    background-size: cover;
 }
 
 .form_init{
-    background-color: red;
-    height: 100vh;
+    height: var(--height_custom);
+}
+
+.hoover_custom:hover{
+    cursor: pointer;
 }
