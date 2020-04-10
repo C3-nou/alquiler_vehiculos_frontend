@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button, Modal } from 'react-bootstrap'
-import { FaSuse, FaKey } from "react-icons/fa"
-import './register.css'
+import { Container, Row, Col, Form, Button } from 'react-bootstrap'
+import { FaSuse } from "react-icons/fa"
+import './register.css';
 
 const Register = () => {
   return (
